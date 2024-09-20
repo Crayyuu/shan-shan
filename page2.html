@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Art - Page 2</title>
+    <link rel="stylesheet" href="styles.css"> <!-- same stylesheet as index.html -->
+</head>
+<body>
+    <header class="fade-in">
+        <div class="container">
+            <h1>For Art - Page 2</h1>
+            <div class="subtitle">This is the second page</div>
+        </div>
+    </header>
+
+    <!-- Add a cute background design with purple vibes -->
+    <div class="background-design">
+        <div class="purple-circles">
+            <div class="circle" style="top: 10%; left: 20%;"></div>
+            <div class="circle" style="top: 30%; left: 50%;"></div>
+            <div class="circle" style="top: 50%; left: 80%;"></div>
+        </div>
+        <div class="purple-swirls">
+            <div class="swirl" style="top: 20%; left: 40%;"></div>
+            <div class="swirl" style="top: 60%; left: 60%;"></div>
+        </div>
+    </div>
+
+    <!-- Add content for page 2 -->
+    <section>
+        <h2>Artistic Expression</h2>
+        <p>Art has the power to evoke emotions, spark imagination, and bring people together. It's a form of self-expression that allows us to tap into our creativity and showcase our unique perspectives.</p>
+        <img src="art-image.jpg" alt="Artistic Expression Image">
+        <p>Whether it's through painting, drawing, sculpture, or any other medium, art has the ability to inspire and uplift us. It's a celebration of individuality and a reflection of our shared human experiences.</p>
+    </section>
+
+    <footer class="fade-in">
+        <div class="container">
+            <p>Made with love for Art's Birthday</p>
+        </div>
+    </footer>
+
+    <script>
+        // Get the navigation links
+        const homeLink = document.getElementById('home-link');
+        const page2Link = document.getElementById('page2-link');
+
+        // Add event listeners to navigation links
+        homeLink.addEventListener('click', () => {
+            // Update the content for the home page
+            window.location.href = 'index.html';
+        });
+
+        page2Link.addEventListener('click', () => {
+            // Update the content for page 2
+            // Since we're already on page 2, do nothing
+        });
+    </script>
+
+</body>
+</html>
